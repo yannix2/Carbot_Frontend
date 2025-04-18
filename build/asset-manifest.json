@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2f8ba1e.css",
+    "main.js": "/static/js/main.1b5b9d74.js",
+    "static/media/logoh.png": "/static/media/logoh.6733381620a5646aa6b6.png",
+    "static/media/carb-high-resolution-logo-transparent (2).png": "/static/media/carb-high-resolution-logo-transparent (2).d1f60f8833430988c9e4.png",
+    "static/media/customer-service-support-svgrepo-com (1).svg": "/static/media/customer-service-support-svgrepo-com (1).12c60a63ca44e677aaef0994cd152c5c.svg",
+    "index.html": "/index.html",
+    "main.b2f8ba1e.css.map": "/static/css/main.b2f8ba1e.css.map",
+    "main.1b5b9d74.js.map": "/static/js/main.1b5b9d74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f8ba1e.css",
+    "static/js/main.1b5b9d74.js"
+  ]
+}
