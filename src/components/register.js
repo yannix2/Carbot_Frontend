@@ -22,7 +22,7 @@ function Register() {
       formData.append("password", password);
 
       // Make a POST request to register the user
-      await axios.post("https://carbot-75uf.onrender.com/register", formData, {
+      await axios.post("https://carbot-ha6v.onrender.com/register", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

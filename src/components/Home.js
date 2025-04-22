@@ -42,7 +42,7 @@ const ContactForm = ({ onSubmit }) => {
     if (email && message && !emailError && !messageError) {
       try {
         const response = await axios.post(
-          "https://carbot-w720.onrender.com/mailing", // URL of your backend mailing API
+          "https://carbot-ha6v.onrender.com/mailing", // URL of your backend mailing API
           new URLSearchParams({
             email: email,
             subject: "Contact Form Submission", // You can customize this

@@ -23,7 +23,7 @@ function Profile() {
 
     try {
       const response = await axios.put(
-        "https://carbot-75uf.onrender.com/update-password", 
+        "https://carbot-ha6v.onrender.com/update-password", 
         { old_password: oldPassword, new_password: newPassword },
         { headers: { "Authorization": `Bearer ${token}` } }
       );
