@@ -22,7 +22,7 @@ function Register() {
       formData.append("password", password);
 
       // Make a POST request to register the user
-      await axios.post("https://carbot-w720.onrender.com/register", formData, {
+      await axios.post("https://carbot-75uf.onrender.com/register", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -44,9 +44,9 @@ function Register() {
   };
 
   return (
-    <div className="bg-gray-800 h-screen flex justify-center items-center font-antonio">
+    <div className="bg-gray-800 my-4 h-screen flex justify-center items-center font-antonio">
       <Header />
-      <div className="bg-white p-8 rounded-lg shadow-2xl w-full max-w-4xl animate__animated animate__fadeIn animate__delay-0.5s">
+      <div className="bg-white px-4 py-2 pb-2 rounded-lg shadow-2xl w-full max-w-4xl animate__animated animate__fadeIn animate__delay-0.5s">
         <h2 className="text-4xl font-extrabold text-center text-green-600 mb-6">
           Sign Up
         </h2>

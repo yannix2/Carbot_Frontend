@@ -24,7 +24,7 @@ function VerifyAccount() {
     try {
       // Send token as query parameter instead of in body
       const response = await axios.get(
-        `https://carbot-w720.onrender.com/verify-account?token=${token}`
+        `https://carbot-75uf.onrender.com/verify-account?token=${token}`
       );
       
       if (response.status === 200) {

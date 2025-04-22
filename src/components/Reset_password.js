@@ -24,7 +24,7 @@ function ResetPassword() {
 
     try {
       const response = await axios.post(
-        "https://carbot-w720.onrender.com/reset-password",
+        "https://carbot-75uf.onrender.com/reset-password",
         { reset_token, new_password: newPassword }
       );
       setSuccess("Password reset successfully!");

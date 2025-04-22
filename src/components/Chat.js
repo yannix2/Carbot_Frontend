@@ -87,7 +87,7 @@ const Chat = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://carbot-w720.onrender.com/chatPsy", {
+      const response = await fetch("https://carbot-75uf.onrender.com/chatPsy", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

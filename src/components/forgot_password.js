@@ -16,7 +16,7 @@ function ForgotPassword() {
 
     try {
       const response = await axios.post(
-        "https://carbot-w720.onrender.com/forgot-password", 
+        "https://carbot-75uf.onrender.com/forgot-password", 
         { email }
       );
       

@@ -17,7 +17,7 @@ function Login() {
       const formData = new FormData();
       formData.append("username", username);
       formData.append("password", password);
-      const response = await axios.post("https://carbot-w720.onrender.com/token", formData, {
+      const response = await axios.post("https://carbot-75uf.onrender.com/token", formData, {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
       });
       localStorage.setItem("token", response.data.access_token);

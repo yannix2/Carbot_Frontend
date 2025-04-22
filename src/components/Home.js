@@ -168,8 +168,8 @@ function Home() {
         </Container>
       </Navbar>
 
-      <div className="flex flex-col justify-center items-center h-screen font-antonio">
-        <div className="text-center text-white py-24 px-4 max-w-8xl relative z-10 animate__animated animate__fadeIn animate__delay-0.5s">
+      <div className="flex flex-col my-24 justify-center items-center h-screen font-antonio">
+        <div className="text-center  text-white py-24 px-4 max-w-8xl relative z-10 animate__animated animate__fadeIn animate__delay-0.5s">
           <h1 className="text-9xl font-extrabold text-green-600 space-x-3 drop-shadow-xl font-antonio py-2 ">
             WELCOME TO
           </h1>
